@@ -10,8 +10,8 @@ double factorial(long n)
 
 using namespace std;
 
-#define MAX_THREADS 4
-#define MAX 2000
+#define MAX_THREADS 4 //Which can be changed according the laptops efficiency and the number of cores it has.
+#define MAX 2000 //This number is the number of terms upto which each series needs to be computed to.
 #define PI 3.14159265
 
 double sineSum[MAX_THREADS];

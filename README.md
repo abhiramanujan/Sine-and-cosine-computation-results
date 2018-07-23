@@ -5,7 +5,7 @@ Parallelized code(using OpenMP) - sineOMP.cpp, which compoutes the sine and cosi
 
 Parallelizing a code depends upon the following :-
 1. The type of decomposition required based on the problem faced.
-2. The method of parallelization needs to be choosed based on the outcomes required.
+2. The method of parallelization needs to be chosen appropriately based on the outcomes required.
 3. The number of threads to be assigned based on the decomposition of the problem.
 4. Using libraries and environmental variables properly based on the preferences of the outcome.
 5. The account of time taken for executing and running of the program.
